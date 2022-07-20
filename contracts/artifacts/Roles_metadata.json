@@ -1,0 +1,39 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Library for managing addresses assigned to a Role.",
+			"methods": {},
+			"title": "Roles"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/KIP17Goxo.sol": "Roles"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/KIP17Goxo.sol": {
+			"keccak256": "0x790636439a9c87c4e9a9c04745db6d909217ddfab370298f4e423d0579072727",
+			"urls": [
+				"bzz-raw://09850bfc0e0b8570d59201c82d371be2babaa301f143d2f2db446cc5bb03fdbf",
+				"dweb:/ipfs/QmSwLBUp4WtGBGebNiABifnfQpmEbE8GLN9Qj1CYFoFoLx"
+			]
+		}
+	},
+	"version": 1
+}
