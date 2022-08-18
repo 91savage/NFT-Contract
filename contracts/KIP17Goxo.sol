@@ -1367,12 +1367,12 @@ contract KIP17Goxo is KIP17, KIP17Enumerable, KIP17Metadata, MinterRole {
       );
       
       if(revealed == false) {
-        string memory currentNotRevealedUri = _notRevealedURI();
+        string memory currentNotRevealedUri = _notRevealedURI(); //공개 안 할 때
         return bytes(currentNotRevealedUri).length > 0
             ? string(abi.encodePacked(currentNotRevealedUri, String.uint2str(tokenId), ".json"))
             : "";
       }
-      string memory currentBaseURI = _baseURI();
+      string memory currentBaseURI = _baseURI();  //공개 할 때
       return bytes(currentBaseURI).length > 0
           ? string(abi.encodePacked(currentBaseURI, String.uint2str(tokenId), ".json"))
           : "";
